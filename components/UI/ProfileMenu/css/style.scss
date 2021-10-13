@@ -1,0 +1,36 @@
+.profile-menu {
+  // Avatar
+  &__avatar {
+    // background-color: red;
+    $size-avatar: 58px;
+    border: 3px solid #6E5CC2;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    width: $size-avatar;
+    height: $size-avatar;
+    border-radius: 50%;
+
+    ::v-deep .v-avatar {
+      $size-avatar-img: 48px;
+      height: $size-avatar-img !important;
+      min-height: $size-avatar-img !important;
+      width: $size-avatar-img !important;
+      min-width: $size-avatar-img !important;;
+    }
+  }
+
+  // Dropdown
+  &__dropdown {
+    ::v-deep .v-btn {
+      background-color: transparent;
+      // background-color: red;
+      color: #262626;
+      border: none;
+      box-shadow: none;
+      margin-left: 0;
+      padding: 0px !important;
+    }
+  }
+}
