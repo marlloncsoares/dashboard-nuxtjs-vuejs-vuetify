@@ -1,0 +1,13 @@
+.notification-bell {
+  ::v-deep .v-badge {
+    .v-icon {
+      color:#514390;
+    }
+
+    &__badge {
+      background-color: #CB1212 !important;
+      color: white;
+      font-weight: 700;
+    }
+  }
+}

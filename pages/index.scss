@@ -1,0 +1,26 @@
+.page {
+
+  .page-header {
+    display: grid;
+    grid-template: "breadcrumb search notification profile" 80px / 1fr auto auto auto;
+    align-items: center;
+
+    &__breadcrumbs {
+      grid-area: breadcrumb;
+      align-self: start;
+    }
+
+    &__search-card {
+      grid-area: search;
+      align-self: start;
+      align-content: center;
+    }
+
+    &__profile-menu {
+      grid-area: profile;
+      justify-self: end;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
