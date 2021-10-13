@@ -142,9 +142,6 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
-  /* @import '@/assets/style/_new/colors.scss';
-  @import '@/assets/style/_new/global.scss'; */
-  /* @import './style.scss'; */
   @import '@/assets/css/global.scss';
   @import './css/style.scss';
 </style>

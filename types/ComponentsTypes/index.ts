@@ -1,2 +1,4 @@
 import SideBarItem from './SideBarItem'
-export { SideBarItem }
+import BreadcrumbsItem from './BreadcrumbsItem'
+
+export { SideBarItem, BreadcrumbsItem }
