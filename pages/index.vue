@@ -13,6 +13,10 @@
       <!-- Profile Menu -->
       <ProfileMenu class="page-header__profile-menu" />
     </div>
+
+    <div class="page-content">
+      conteúdo
+    </div>
   </section>
 </template>
 

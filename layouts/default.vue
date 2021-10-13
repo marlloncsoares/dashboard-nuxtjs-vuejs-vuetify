@@ -3,7 +3,6 @@
   <v-app>
     <!-- Navegação do usuário (Navegação lateral) -->
     <NavigationDrawer :items="itemsForNavigationDrawer" />
-
     <!-- Conteúdo -->
     <v-main class="main-content">
       <Nuxt />
